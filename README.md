@@ -4,7 +4,7 @@ This project contains a Jupyter Notebook that performs a detailed sales forecast
 
 Project Structure
 
-    Walmarts_Sales_Forecasting(1).ipynb: The main Jupyter Notebook that contains the entire sales forecasting project.
+    Walmarts_Sales_Forecasting.ipynb: The main Jupyter Notebook that contains the entire sales forecasting project.
 
 Key Features
 
@@ -12,7 +12,9 @@ Key Features
 
     Feature Engineering: The notebook adds one and four-week lags to the Weekly_Sales column as new features to improve the model's performance.
 
-    Modeling: The project uses the Prophet model for sales forecasting. The data is manually split for training and testing the model. The model was manually hyper-tuned to find the best Root Mean Square Error (RMSE) score. The notebook includes a plot showing the actual and forecasted sales using a line plot.
+    Modeling:The project uses two models XGBRegressor and prophet:
+    the first model is XGBregressor  providing an R^2 score of approximately 92 percent a
+    The project also uses the Prophet model for sales forecasting. The data is manually split for training and testing the model. The model was manually hyper-tuned to find the best Root Mean Square Error (RMSE) score. The notebook includes a plot showing the actual and forecasted sales using a line plot.
 
 Requirements
 
