@@ -1,3 +1,5 @@
+NOTE: THE HYPER TUNING IS PRINTING OUT THE RESUTLS BUT AS A RESULT OF GITHUB I HAD TO REMOVE THE WIDGETS IF YOUD LIKE TO SEE THE VERBOSE OF THE PROPHET MODEL FITTING 
+PLEASE DOWNLOAD THE FILE
 Walmart Sales Forecasting
 
 This project contains a Jupyter Notebook that performs a detailed sales forecasting analysis for Walmart using the Prophet model from Meta.
